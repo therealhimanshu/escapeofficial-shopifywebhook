@@ -1,0 +1,2 @@
+SHOPIFY_WEBHOOK_SECRET="paste-the-shopify-webhook-signing-value"
+APPS_SCRIPT_SHARED_SECRET="use-a-separate-random-secret"

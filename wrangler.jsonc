@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "escapeofficial-shopifywebhook",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-31",
+  "vars": {
+    "SHOPIFY_SHOP": "your-store.myshopify.com",
+    "APPS_SCRIPT_WEB_APP_URL": "https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
