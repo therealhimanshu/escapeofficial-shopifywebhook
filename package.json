@@ -1,13 +1,12 @@
 {
-  "name": "escapeofficial-shopifywebhook",
+  "name": "shopify-webhook-relay",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "logs": "wrangler tail",
-    "test": "node --test"
+    "logs": "wrangler tail"
   },
   "devDependencies": {
     "wrangler": "^4.0.0"

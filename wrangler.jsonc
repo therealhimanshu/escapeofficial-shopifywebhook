@@ -1,12 +1,21 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "escapeofficial-shopifywebhook",
+  "name": "shopify-webhook-relay",
   "main": "src/index.js",
   "compatibility_date": "2026-07-31",
+
   "vars": {
-    "SHOPIFY_SHOP": "your-store.myshopify.com",
-    "APPS_SCRIPT_WEB_APP_URL": "https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec"
+    "SHOPIFY_SHOP": "1umk3d-qs.myshopify.com",
+    "APPS_SCRIPT_WEB_APP_URL": "https://script.google.com/macros/s/AKfycby0NAdCViixzJSLjNV004TS2CAWiDWwuWQOuTs2A8bCEQ7o-I0x0s9w6vOfqjLHHMU5/exec"
   },
+
+  "secrets": {
+    "required": [
+      "SHOPIFY_WEBHOOK_SECRET",
+      "APPS_SCRIPT_SHARED_SECRET"
+    ]
+  },
+
   "observability": {
     "enabled": true
   }
