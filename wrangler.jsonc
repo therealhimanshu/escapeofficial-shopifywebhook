@@ -9,12 +9,12 @@
     "APPS_SCRIPT_WEB_APP_URL": "https://script.google.com/macros/s/AKfycby0NAdCViixzJSLjNV004TS2CAWiDWwuWQOuTs2A8bCEQ7o-I0x0s9w6vOfqjLHHMU5/exec"
   },
 
-//   "secrets": {
-//     "required": [
-//       "SHOPIFY_WEBHOOK_SECRET",
-//       "APPS_SCRIPT_SHARED_SECRET"
-//     ]
-//   },
+  "secrets": {
+    "required": [
+      "SHOPIFY_WEBHOOK_SECRET",
+      "APPS_SCRIPT_SHARED_SECRET"
+    ]
+  },
 
   "observability": {
     "enabled": true
